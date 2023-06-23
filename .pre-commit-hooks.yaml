@@ -2,8 +2,6 @@
   name: js-beautify
   entry: js-beautify
   language: node
-  files: \.js$
-  args: []
-  additional_dependencies: ['js-beautify@1.13.0']
-  minimum_pre_commit_version: 2.7.1
+  additional_dependencies: [ 'js-beautify@1.14.8' ]
+  minimum_pre_commit_version: 2.0.0
   description: "Runs `js-beautify`"
